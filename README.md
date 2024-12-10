@@ -102,9 +102,8 @@ Our project focuses on enhancing the understanding of semantic segmentation tech
    - **Pose Alignment**: Improve camera-LiDAR pose calibration for **Pandaset**.
 
 ## Download Resources
-You can download the converted datasets and pretrained weights for evaluation using the links below:
+You can download the pretrained weights for evaluation using the links below:
 1. **Waymo Converted Dataset**: [Download Link Placeholder]
-2. **Pandaset Converted Dataset**: [Download](https://umich-my.sharepoint.com/:f:/g/personal/hoangdng_umich_edu/Enp1FlPBK8BLhksziXse-IgBdpX4D43hETGXNYXplDKLEw?e=X3mhPL)
 
 3. **Pretrained Weights on Waymo**: [Download Link Placeholder]
 4. **Pretrained Weights on Pandaset**: [Download](https://umich-my.sharepoint.com/:f:/g/personal/hoangdng_umich_edu/Enp1FlPBK8BLhksziXse-IgBdpX4D43hETGXNYXplDKLEw?e=X3mhPL)
