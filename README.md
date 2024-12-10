@@ -125,3 +125,9 @@ The **Pandaset** conversion code is based on the repository [SiMoM0/Pandaset2Kit
 Conversion is done using the `convert.py` script:
 ```bash
 python convert.py <path_to_pandaset> <path_to_output>
+```
+
+## Acknowledgements
+Code is forked from [yanx27/2DPASS](https://github.com/yanx27/2DPASS)
+Pandaset conversion code is modified from [SiMoM0/Pandaset2Kitti](https://github.com/SiMoM0/Pandaset2Kitti)
+PandaSet: https://pandaset.org/
