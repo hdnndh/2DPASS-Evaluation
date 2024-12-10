@@ -106,7 +106,7 @@ You can download the pretrained weights for evaluation using the links below:
 1. **Waymo Converted Dataset**: [Download Link Placeholder]
 
 3. **Pretrained Weights on Waymo**: [Download Link Placeholder]
-4. **Pretrained Weights on Pandaset**: [Download]([https://umich-my.sharepoint.com/:f:/g/personal/hoangdng_umich_edu/Enp1FlPBK8BLhksziXse-IgBdpX4D43hETGXNYXplDKLEw?e=X3mhPL](https://umich-my.sharepoint.com/:u:/g/personal/hoangdng_umich_edu/EXCtUtmRf4FInn3FKUiS-GsBjALhGRThsmY4DoszE5DuQQ?e=ueVscc))
+4. **Pretrained Weights on Pandaset**: [Download](https://umich-my.sharepoint.com/:u:/g/personal/hoangdng_umich_edu/EXCtUtmRf4FInn3FKUiS-GsBjALhGRThsmY4DoszE5DuQQ?e=ueVscc)
 
 
 ## Conversion Code
