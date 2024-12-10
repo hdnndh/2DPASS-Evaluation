@@ -113,14 +113,14 @@ You can download the converted datasets and pretrained weights for evaluation us
 ### Pandaset Conversion
 The **Pandaset** conversion code is based on the repository [SiMoM0/Pandaset2Kitti](https://github.com/SiMoM0/Pandaset2Kitti) and has been modified to suit the needs of the 2DPASS evaluation pipeline. The modified conversion script is added to this repository as `/pandaset/convert.py`.
 
-### How to Use
+## How to Use
 
-#### Running
+### Running
 1. Download and unzip PandasetConv into the `dataset` folder.
 2. Place the `pandaset.yaml` configuration file and label map file into their corresponding folders (similar to the SemanticKITTI structure). Ensure the contents and file names are correctly formatted.
 3. Put the pretrained checkpoint into the `logs` folder. Pretrained logs should be stored in `logs/SemanticKITTI`.
 
-#### Conversion
+### Conversion
 Conversion is done using the `convert.py` script:
 ```bash
 python convert.py <path_to_pandaset> <path_to_output>
