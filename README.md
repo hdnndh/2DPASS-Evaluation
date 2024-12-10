@@ -93,7 +93,7 @@ Our project focuses on enhancing the understanding of semantic segmentation tech
 ## Discussion and Future Work
 1. **Challenges**:
    - Limited transferability across datasets due to inherent differences in sensor setups and data collection conditions.
-   - Suboptimal performance on **Pandaset** caused by outdated backbones and misaligned camera-LiDAR calibration.
+   - Suboptimal performance on **Pandaset** caused by difference in color gamut and misaligned camera-LiDAR calibration.
 
 2. **Proposed Improvements**:
    - **Data Augmentation**: Introduce color augmentation techniques for better generalization.
