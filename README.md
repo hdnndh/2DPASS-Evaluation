@@ -117,7 +117,7 @@ The **Pandaset** conversion code is based on the repository [SiMoM0/Pandaset2Kit
 ## How to Use
 
 ### Running
-1. Download and unzip PandasetConv into the `dataset` folder.
+1. Convert and put PandaSet converted data into the `dataset` folder.
 2. Place the `pandaset.yaml` configuration file and label map file into their corresponding folders (similar to the SemanticKITTI structure). Ensure the contents and file names are correctly formatted.
 3. Put the pretrained checkpoint into the `logs` folder. Pretrained logs should be stored in `logs/SemanticKITTI`.
 
