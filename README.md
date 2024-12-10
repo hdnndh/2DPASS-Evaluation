@@ -2,7 +2,7 @@
 
 This repository evaluates the **2DPASS** algorithm, originally introduced in [2D Priors Assisted Semantic Segmentation on LiDAR Point Clouds](https://arxiv.org/pdf/2207.04397.pdf) by Yan et al., on additional datasets including **Waymo Open Dataset** and **Pandaset**. This evaluation aims to extend the insights of the algorithm's strengths and limitations in handling various datasets beyond **SemanticKITTI** and **NuScenes**.
 
-![Performance Chart](chart.png)
+Member: Yui Chang, Daniel Xu, Hoang Nguyen
 
 ## Abstract
 
