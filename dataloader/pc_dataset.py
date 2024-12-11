@@ -59,8 +59,8 @@ class SemanticKITTI(data.Dataset):
         self.proj_matrix = {}
 
         for i_folder in split:
-            self.im_idx += absoluteFilePaths('/'.join([data_path, str(i_folder).zfill(2), 'velodyne']), num_vote)
-            calib_path = os.path.join(data_path, str(i_folder).zfill(2), "calib.txt")
+            self.im_idx += absoluteFilePaths('/'.join([data_path, str(i_folder).zfill(3), 'velodyne']), num_vote)
+            calib_path = os.path.join(data_path, str(i_folder).zfill(3), "calib.txt")
             calib = self.read_calib(calib_path)
             proj_matrix = np.matmul(calib["P2"], calib["Tr"])
             self.proj_matrix[i_folder] = proj_matrix
@@ -116,7 +116,8 @@ class SemanticKITTI(data.Dataset):
 
         image_file = self.im_idx[index].replace('velodyne', 'image_2').replace('.bin', '.png')
         image = Image.open(image_file)
-        proj_matrix = self.proj_matrix[int(self.im_idx[index][-22:-20])]
+        # proj_matrix = self.proj_matrix[int(self.im_idx[index][-22:-20])]
+        proj_matrix = self.proj_matrix[int(self.im_idx[index][-18:-16])]
 
         data_dict = {}
         data_dict['xyz'] = points
