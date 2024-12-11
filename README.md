@@ -103,9 +103,9 @@ Our project focuses on enhancing the understanding of semantic segmentation tech
 
 ## Download Resources
 You can download the pretrained weights for evaluation using the links below:
-1. **Waymo Converted Dataset**: [Download Link Placeholder]
+1. **Waymo Converted Dataset**: [[Download](https://umich-my.sharepoint.com/:f:/g/personal/danielxu_umich_edu/EpwCW7GnvXNLjPUHz271pDkBWS8l1YPvaxgcY5OongXxnA?e=CHCnYa)] [[Original](https://waymo.com/open/download)]
 
-3. **Pretrained Weights on Waymo**: [Download Link Placeholder]
+3. **Pretrained Weights on Waymo**: [Download](https://umich-my.sharepoint.com/:f:/g/personal/danielxu_umich_edu/Evef_9zjwMVPnU-TvdFKwwcBdIQuG9Le0NDSN3mt9PpmKQ?e=TuKGWR)
 4. **Pretrained Weights on Pandaset**: [Download](https://umich-my.sharepoint.com/:u:/g/personal/hoangdng_umich_edu/EXCtUtmRf4FInn3FKUiS-GsBjALhGRThsmY4DoszE5DuQQ?e=ueVscc)
 
 
@@ -114,11 +114,14 @@ You can download the pretrained weights for evaluation using the links below:
 ### Pandaset Conversion
 The **Pandaset** conversion code is based on the repository [SiMoM0/Pandaset2Kitti](https://github.com/SiMoM0/Pandaset2Kitti) and has been modified to suit the needs of the 2DPASS evaluation pipeline. The modified conversion script is added to this repository as `/pandaset/convert.py`.
 
+### Waymo Conversion
+The **Waymo** conversion code used is located in the repository [IrohXu/waymo_to_semanticKITTI](https://github.com/IrohXu/waymo_to_semanticKITTI/tree/main).Follow the instruction in the repository to transform the .tfrecords to the SemanticKITTI format. To remap the Waymo labels to SemanticKITTI's, utilize `/waymo/labelfix.py`.
+
 ## How to Use
 
 ### Running
-1. Convert and put PandaSet converted data into the `dataset` folder.
-2. Place the `pandaset.yaml` configuration file and label map file into their corresponding folders (similar to the SemanticKITTI structure). Ensure the contents and file names are correctly formatted.
+1. Convert and put PandaSet or Waymo converted data into the `dataset` folder.
+2. If using Pandaset, place the `pandaset.yaml` configuration file and label map file into their corresponding folders (similar to the SemanticKITTI structure). Ensure the contents and file names are correctly formatted.
 3. Put the pretrained checkpoint into the `logs` folder. Pretrained logs should be stored in `logs/SemanticKITTI`.
 
 ### Conversion
