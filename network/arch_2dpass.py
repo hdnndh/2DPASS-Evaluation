@@ -132,7 +132,13 @@ class xModalKD(nn.Module):
 
         img_seg_logits = self.classifier(torch.cat(img_seg_feat, 1))
         loss += self.seg_loss(img_seg_logits, data_dict['img_label'])
+        # data_dict['loss'] += loss
         data_dict['loss'] += loss
+        if 'loss' not in data_dict:
+            data_dict['loss'] = torch.tensor(0.0, device=loss.device)
+
+        if loss.numel() > 0:
+            data_dict['loss'] += loss.sum()
 
         return data_dict
 
